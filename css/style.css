@@ -244,4 +244,43 @@
   text-align: center;
   color: white;
 }
+
+.oo {
+  margin-left: 390px;
+  margin-top: 50px;
+}
+
+.oo a:hover {
+  color: red;
+  font-size: 21px;
+  border-bottom: 1px solid green;
+}
+
+.oo li {
+  padding-left: 12px;
+  border: none;
+  font-weight: bolder;
+  font-size: 15px;
+}
+
+.card-body {
+  background: rgba(255, 0, 0, 0.6);
+  color: white;
+}
+
+.card-body h2 {
+  margin: 0 0 0 60px;
+}
+
+.card {
+  width: 230px;
+}
+
+.asd {
+  margin-left: -5px;
+}
+
+.aaasd {
+  padding-left: 69px;
+}
 /*# sourceMappingURL=style.css.map */
