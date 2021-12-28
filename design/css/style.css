@@ -1,0 +1,310 @@
+@import url("https://fonts.googleapis.com/css2?family=Vujahday+Script&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.navbar-brand {
+  font-family: 'Vujahday Script', cursive;
+  position: -webkit-sticky;
+  position: sticky;
+}
+
+.carousel-caption h1 {
+  font-family: 'Vujahday Script', cursive;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: white !important;
+  font-size: 11px;
+  padding-left: 22px !important;
+  font-weight: bold;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+  margin-bottom: 3px solid green !important;
+  color: #969627 !important;
+  font-size: 13px;
+}
+
+.carousel-item {
+  position: relative;
+}
+
+.abc {
+  width: 55%;
+  position: absolute;
+  top: 35%;
+  margin: auto;
+}
+
+.abc h1 {
+  font-size: 60px;
+  width: 0px;
+  overflow: hidden;
+  /* border-right: 1px solid; */
+  /* border: 1px solid red; */
+  white-space: pre;
+  -webkit-animation: tt 4s linear infinite, qq 0.7s linear infinite;
+          animation: tt 4s linear infinite, qq 0.7s linear infinite;
+  margin: auto;
+}
+
+@-webkit-keyframes tt {
+  0% {
+    width: 0px;
+  }
+  100% {
+    width: 725px;
+  }
+}
+
+@keyframes tt {
+  0% {
+    width: 0px;
+  }
+  100% {
+    width: 725px;
+  }
+}
+
+.abc h1:hover {
+  -webkit-animation-play-state: paused;
+          animation-play-state: paused;
+}
+
+.abc h1::before {
+  content: "Dhiraj";
+  color: #15ff00;
+}
+
+.abc h1::after {
+  content: "Bar";
+  color: #8000ff;
+}
+
+.abc p {
+  font-size: 30px;
+  font-weight: bolder;
+  color: white;
+  border-bottom: 3px solid red;
+}
+
+.aab {
+  margin-left: 9px;
+  margin-bottom: 20px;
+}
+
+.bi-flower1 {
+  margin: 160px;
+  font-size: 30px;
+}
+
+.mt-200 {
+  margin-top: 80px;
+  text-align: center;
+}
+
+.lala {
+  width: 259px;
+}
+
+.eats {
+  background-image: url("/img/tarkari.jpeg");
+  padding: 150px 0;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.eats h1 {
+  color: #e6ff01;
+  font-size: 4.5em;
+  position: relative;
+  top: 76%;
+  width: 100%;
+  padding: 0 0 0 346px;
+  border: 0;
+  display: inline-block;
+}
+
+.eats h1 span {
+  border-bottom: 7px solid white;
+}
+
+.abcd {
+  margin-top: 20px;
+}
+
+.abcd h1 {
+  font-weight: bolder;
+  font-size: 12vh;
+  margin-top: -310px;
+}
+
+.eatss {
+  background-image: url("/img/brr.jpeg");
+  padding: 150px 0;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.eatss h1 {
+  color: #973434;
+  font-size: 4.5em;
+  font-weight: bolder;
+  position: relative;
+  top: -10%;
+  width: 100%;
+  padding: 0 0 0 346px;
+  border: 0;
+  display: inline-block;
+}
+
+.eatss h1 span {
+  border-bottom: 7px solid #00ff9d;
+}
+
+.haha {
+  margin-top: 63px;
+}
+
+.eatsas {
+  background-image: url("/img/burr.jpeg");
+  padding: 150px 0;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.eatsas h1 {
+  color: white;
+  font-size: 4.5em;
+  font-weight: bolder;
+  position: relative;
+  top: -5%;
+  padding: 0 0 0 216px;
+  border: 0;
+  display: inline-block;
+}
+
+.eatsas h1 span {
+  border-bottom: 7px solid red;
+}
+
+.eatsasa {
+  background-image: url("/img/tab.jpeg");
+  padding: 150px 0;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.eatsasa h1 {
+  color: white;
+  font-size: 4.5em;
+  font-weight: bolder;
+  position: relative;
+  top: -55%;
+  padding: 0 0 0 406px;
+  border: 0;
+  display: inline-block;
+}
+
+.hahaa {
+  margin-top: 116px;
+}
+
+.hahaa h3 {
+  margin: 0 0 0 110px;
+}
+
+.hahaa p {
+  border-bottom: 1px solid black;
+}
+
+.hahaa p:last-child {
+  border: none;
+}
+
+.kalo {
+  background: black;
+  color: lightgreen;
+}
+
+.finish p {
+  padding: 40px;
+  text-align: center;
+  color: white;
+}
+
+.oo {
+  margin-left: 390px;
+  margin-top: 50px;
+}
+
+.oo a:hover {
+  color: red;
+  font-size: 21px;
+  border-bottom: 1px solid green;
+}
+
+.oo li {
+  padding-left: 12px;
+  border: none;
+  font-weight: bolder;
+  font-size: 15px;
+}
+
+.card-body {
+  background: rgba(255, 0, 0, 0.6);
+  color: white;
+}
+
+.card-body h2 {
+  margin: 0 0 0 60px;
+}
+
+.card {
+  width: 230px;
+}
+
+.asd {
+  margin-left: -15px;
+}
+
+.aaasd {
+  padding-left: 109px;
+}
+
+.aad {
+  margin-left: 312px;
+}
+
+.aad h2 {
+  margin-left: 21px;
+}
+
+.aaq {
+  margin-left: -21px;
+}
+
+.aaq h2 {
+  margin-left: 41px;
+}
+
+.aaq a {
+  color: white;
+  text-decoration: none;
+}
+
+.bi {
+  color: white;
+  font-weight: bolder;
+  font-size: 25px;
+  padding: 0 5px 0 5px;
+}
+
+.bi:hover {
+  color: #0066ff;
+}
+/*# sourceMappingURL=style.css.map */
