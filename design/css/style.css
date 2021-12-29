@@ -42,6 +42,7 @@
 
 .abc h1 {
   font-size: 60px;
+  height: 80px;
   width: 0px;
   overflow: hidden;
   /* border-right: 1px solid; */
@@ -97,22 +98,25 @@
   margin-bottom: 20px;
 }
 
-.bi-flower1 {
-  margin: 160px;
-  font-size: 30px;
-}
-
 .mt-200 {
   margin-top: 80px;
   text-align: center;
 }
 
 .lala {
-  width: 259px;
+  margin-left: 60px;
+  width: 320px;
+  padding-top: 20px;
+}
+
+.asq {
+  padding-left: -60px;
+  width: 320px;
+  padding-top: 20px;
 }
 
 .eats {
-  background-image: url("/img/tarkari.jpeg");
+  background-image: url("../img/tarkari.jpeg");
   padding: 150px 0;
   background-attachment: fixed;
   background-size: cover;
@@ -144,7 +148,7 @@
 }
 
 .eatss {
-  background-image: url("/img/brr.jpeg");
+  background-image: url("../img/brr.jpeg");
   padding: 150px 0;
   background-attachment: fixed;
   background-size: cover;
@@ -171,7 +175,7 @@
 }
 
 .eatsas {
-  background-image: url("/img/burr.jpeg");
+  background-image: url("../img/burr.jpeg");
   padding: 150px 0;
   background-attachment: fixed;
   background-size: cover;
@@ -193,7 +197,7 @@
 }
 
 .eatsasa {
-  background-image: url("/img/tab.jpeg");
+  background-image: url("../img/tab.jpeg");
   padding: 150px 0;
   background-attachment: fixed;
   background-size: cover;

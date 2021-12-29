@@ -66,7 +66,7 @@ $ltgreen : rgb(150, 150, 39);
 
     {
         font-size: 60px;
-
+        height: 80px;
         width: 0px;
         overflow: hidden;
         /* border-right: 1px solid; */
@@ -128,8 +128,7 @@ $ltgreen : rgb(150, 150, 39);
 .bi-flower1
 {
     
-       margin: 160px;
-       font-size: 30px;
+        
     
 }
 
@@ -143,12 +142,25 @@ $ltgreen : rgb(150, 150, 39);
 
 .lala
     {
-        width: 259px;
+        margin-left:60px;
+        width: 320px;
+        padding-top: 20px;
     }
+    .asw
+    {
+        // margin-left: -10px;
+        // width: 201px;
+    }
+ .asq
+ {
+     padding-left: -60px;
+     width: 320px;
+     padding-top: 20px;
 
+ }
 .eats
 {
-    background-image: url("/img/tarkari.jpeg");
+    background-image: url("../img/tarkari.jpeg");
     // height: 50vh;
 
     padding: 150px 0;
@@ -192,7 +204,7 @@ span
 
 .eatss
 {
-    background-image: url("/img/brr.jpeg");
+    background-image: url("../img/brr.jpeg");
     // height: 50vh;
 
     padding: 150px 0;
@@ -228,7 +240,7 @@ span
 
 .eatsas
 {
-    background-image: url("/img/burr.jpeg");
+    background-image: url("../img/burr.jpeg");
     // height: 50vh;
 
     padding: 150px 0;
@@ -260,7 +272,7 @@ span
 
 .eatsasa
 {
-    background-image: url("/img/tab.jpeg");
+    background-image: url("../img/tab.jpeg");
     // height: 50vh;
 
     padding: 150px 0;
