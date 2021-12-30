@@ -336,18 +336,34 @@
   visibility: hidden;
 }
 
-@media (max-width: 960px) and (min-width: 501px) {
-  .oo {
-    /* Show 2 logos per row on medium devices (tablets, phones in landscape) */
-  }
-  .oo .oo li {
-    width: 10%;
+@media only screen and (max-width: 1024px) {
+  .break {
+    margin-left: -100px;
+    display: block;
   }
 }
 
-@media (max-width: 500px) {
-  .oo .oo li {
-    width: 10%;
+@media only screen and (max-width: 768px) {
+  .break {
+    margin-left: -300px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .break {
+    margin-left: -400px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .break {
+    margin-left: -350px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .break li {
+    padding: 0 1px 0 0;
   }
 }
 /*# sourceMappingURL=style.css.map */
